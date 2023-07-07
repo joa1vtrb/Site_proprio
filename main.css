@@ -1,0 +1,13 @@
+body header {
+    display: flex;
+    margin: 16px;
+    padding: 8px;
+    max-width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    text-decoration: none;
+}
