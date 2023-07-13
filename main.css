@@ -36,3 +36,10 @@ header div li a {
     color: azure;
 }
 
+img {
+    height: 205px;
+}
+
+#jogos-fav .lista-jogos-filmes ul li{
+    display: inline-block;
+}
