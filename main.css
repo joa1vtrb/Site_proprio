@@ -37,9 +37,31 @@ header div li a {
 }
 
 img {
-    height: 205px;
+width: 100%;
 }
 
-#jogos-fav .lista-jogos-filmes ul li{
+#jogos-fav .lista-jogos-filmes ul li,
+#jogos-fav .lista-jogos-filmes ul li p,
+#jogos-fav .lista-jogos-filmes ul li h3{
+    padding: 8px;
+    /* margin-bottom: 16px; */
+}
+
+.lista-jogos-filmes {
+    padding: 8px;
+    width: 100%;
+}
+
+#jogos-fav div ul li,
+#filmes-fav div ul li {
+    width: 30%;
+    padding: 8px;
+}
+
+#jogos-fav div ul,
+#filmes-fav div ul {
+    flex-wrap: wrap;
+    justify-content: space-between;
     display: inline-block;
+    display: flex;
 }
