@@ -11,6 +11,7 @@ body {
 
 header {
     padding: 16px;
+    margin-bottom: 16px;
     display: flex;
     background-color: rgb(98, 7, 7);
     max-width: auto;
@@ -36,13 +37,14 @@ header div li a {
     color: azure;
 }
 
-img {
+#jogos-fav img,
+#filmes-fav img {
 width: 100%;
 }
 
 #jogos-fav .lista-jogos-filmes ul li,
 #jogos-fav .lista-jogos-filmes ul li p,
-#jogos-fav .lista-jogos-filmes ul li h3,
+h3,
 h2 {
     padding: 8px;
     /* margin-bottom: 16px; */
@@ -65,4 +67,67 @@ h2 {
     justify-content: space-between;
     display: flex;
     list-style: none;
+}
+
+.social-midia img {
+    height: 24px;
+}
+
+.social-midia li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-midia li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-metods {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form,
+footer div p {
+    margin: 0 8px;
+}
+
+form button {
+    background-color: rgb(98, 7, 7);
+    color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(177, 5, 5);
+}
+
+input:focus, textarea:focus {
+    outline-color: rgb(98, 7, 7);
+}
+
+footer {
+    background-color: rgb(98, 7, 7);
+    color: azure;
+    padding: 16px 0; 
 }
