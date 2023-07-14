@@ -42,7 +42,8 @@ width: 100%;
 
 #jogos-fav .lista-jogos-filmes ul li,
 #jogos-fav .lista-jogos-filmes ul li p,
-#jogos-fav .lista-jogos-filmes ul li h3{
+#jogos-fav .lista-jogos-filmes ul li h3,
+h2 {
     padding: 8px;
     /* margin-bottom: 16px; */
 }
@@ -62,6 +63,6 @@ width: 100%;
 #filmes-fav div ul {
     flex-wrap: wrap;
     justify-content: space-between;
-    display: inline-block;
     display: flex;
+    list-style: none;
 }
